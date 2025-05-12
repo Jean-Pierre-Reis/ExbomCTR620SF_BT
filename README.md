@@ -8,14 +8,3 @@ Em linhas gerais, a biblioteca:
   Registra um callback que detecta, emparelha e conecta automaticamente ao CTR-620SF quando em modo pairing.
   Parseia os relatórios HID recebidos (botões e eixos) e os disponibiliza via métodos como readButtons() e readAxes().
   Inclui exemplos de uso tanto em Arduino IDE quanto em PlatformIO.
-
-ExbomCTR620SF_BT/
-├── library.properties
-├── src/
-│   ├── ExbomCTR620SF.h
-│   ├── ExbomCTR620SF.cpp
-│   └── HIDReportParser.h
-└── examples/
-    └── SimpleTest/
-        └── SimpleTest.ino
-
